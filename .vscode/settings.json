@@ -1,0 +1,21 @@
+{
+  "git.inputValidationLength": 72,
+  "git.inputValidationSubjectLength": 50,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "git-commit": true
+  },
+  "github.copilot.advanced": {
+    "authProvider": "github"
+  },
+  "scm.inputFontFamily": "monospace",
+  "workbench.editor.languageDetection": false,
+  "workbench.startupEditor": "none",
+  "git.useCommitInputAsStashMessage": true,
+  "git.verboseCommit": true,
+  "files.associations": {
+    "COMMIT_EDITMSG": "git-commit"
+  }
+}
