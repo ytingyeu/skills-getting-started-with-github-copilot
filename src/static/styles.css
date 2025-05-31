@@ -136,6 +136,51 @@ button:hover {
   display: none;
 }
 
+/* Participants list styling */
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  margin: 5px 0;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.participant-email {
+  flex-grow: 1;
+  font-size: 14px;
+  color: #333;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.delete-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(220, 53, 69, 0.25);
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
